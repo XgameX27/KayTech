@@ -1,23 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>Benim Site</title>
-  <style>
-    body{
-      background:black;
-      color:white;
-      font-family:Arial;
-      text-align:center;
-      margin-top:100px;
-    }
-    h1{font-size:50px;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yazılım Kafası</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Consolas, monospace;
+    background:#0d1117;
+    color:#00ffcc;
+}
+
+header{
+    background:#010409;
+    padding:20px;
+    text-align:center;
+    border-bottom:1px solid #00ffcc33;
+}
+
+h1{
+    margin:0;
+    font-size:40px;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+}
+
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.card{
+    background:#161b22;
+    padding:25px;
+    margin:20px auto;
+    width:300px;
+    border-radius:10px;
+    box-shadow:0 0 20px #00ffcc22;
+}
+
+footer{
+    background:#010409;
+    padding:20px;
+    text-align:center;
+    margin-top:40px;
+    color:#aaa;
+}
+</style>
 </head>
+
 <body>
 
-<h1>Ben yazılımcıyım 😎</h1>
-<p>GitHub Pages ile açıldı</p>
+<header>
+<h1>YAZILIM KAFASI</h1>
+<nav>
+<a href="#hakkimda">Hakkımda</a>
+<a href="#projeler">Projeler</a>
+<a href="#iletisim">İletişim</a>
+</nav>
+</header>
+
+<section id="hakkimda">
+<h2>Ben Kimim?</h2>
+<p>Yazılım, yapay zeka ve teknoloji ile uğraşan geliştirici.</p>
+</section>
+
+<section id="projeler">
+<h2>Projeler</h2>
+
+<div class="card">
+<h3>AI Projesi</h3>
+<p>Nesne algılama sistemi</p>
+</div>
+
+<div class="card">
+<h3>Oyun Botu</h3>
+<p>YOLO + PyTorch bot</p>
+</div>
+
+</section>
+
+<section id="iletisim">
+<h2>İletişim</h2>
+<p>Discord: yakında</p>
+</section>
+
+<footer>
+<p>© 2026 Yazılım Kafası</p>
+</footer>
 
 </body>
 </html>
