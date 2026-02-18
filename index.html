@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yazılım Kafası</title>
-
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>YazılımKafası</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<div class="logo">YazılımKafası</div>
-<nav>
-<a href="index.html">Ana Sayfa</a>
-<a href="hakkimda.html">Hakkımda</a>
+<nav class="navbar">
+  <div class="logo">YazılımKafası</div>
+  <div class="links">
+    <a href="index.html">Ana Sayfa</a>
+    <a href="hakkimda.html">Hakkımda</a>
+  </div>
 </nav>
+
+<header class="hero">
+  <h1>Yazılım Blogu</h1>
+  <p>Yapay zeka, oyun ve yazılım projeleri</p>
 </header>
 
-<section class="hero">
-<div class="hero-text">
-<h1>AI Solutions That Transform</h1>
-<p>Yapay zeka, oyun ve yazılım projeleri.</p>
-<button onclick="scrollToServices()">Projeler</button>
-</div>
+<section class="blog-grid">
+
+  <div class="card">
+    <h2>React ile Modern UI</h2>
+    <p>Modern arayüz nasıl yapılır</p>
+    <span>18 Şubat 2026</span>
+  </div>
+
+  <div class="card">
+    <h2>YOLO AI Projesi</h2>
+    <p>Nesne algılama sistemi</p>
+    <span>17 Şubat 2026</span>
+  </div>
+
+  <div class="card">
+    <h2>Linux Rehberi</h2>
+    <p>Terminal gücü</p>
+    <span>15 Şubat 2026</span>
+  </div>
+
 </section>
 
-<section id="services" class="cards">
-<div class="card">AI Projeleri</div>
-<div class="card">Bot Sistemleri</div>
-<div class="card">Oyun Geliştirme</div>
-</section>
-
-<script src="script.js"></script>
 </body>
 </html>
