@@ -6,33 +6,55 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <header>
-  <h1>KayTech</h1>
-  <nav>
-    <a href="index.html">Ana Sayfa</a>
-    
-    <div class="dropdown">
-      <a href="blog.html">Blog</a>
-      <div class="dropdown-content">
-        <a href="python.html">Python</a>
-        <a href="javascript.html">JavaScript</a>
-        <a href="cpp.html">C++</a>
-        <a href="java.html">Java</a>
-        <a href="go.html">Go</a>
+  <header>
+    <h1>KayTech</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <div class="dropdown">
+        <a href="blog.html">Blog</a>
+        <div class="dropdown-content">
+          <a href="python.html">Python</a>
+          <a href="javascript.html">JavaScript</a>
+          <a href="cpp.html">C++</a>
+          <a href="java.html">Java</a>
+          <a href="go.html">Go</a>
+        </div>
       </div>
+      <a href="about.html">Hakkımda</a>
+    </nav>
+  </header>
+
+  <!-- Hero Bölümü -->
+  <section class="hero">
+    <h2>Teknolojiye Açılan Kapı</h2>
+    <p>KayTech ile yazılım dünyasını keşfet!</p>
+  </section>
+
+  <!-- Öne Çıkan Yazılar -->
+  <section class="featured">
+    <h2>Öne Çıkan Yazılar</h2>
+    <div class="card">
+      <h3>Python ile Veri Bilimi</h3>
+      <p>Python’un gücüyle veri analizi ve yapay zekaya giriş.</p>
+      <a href="python.html">Devamını Oku</a>
     </div>
-    
-    <a href="about.html">Hakkımda</a>
-  </nav>
-</header>
+    <div class="card">
+      <h3>JavaScript ile Web</h3>
+      <p>Modern web geliştirme için JS framework’leri.</p>
+      <a href="javascript.html">Devamını Oku</a>
+    </div>
+  </section>
 
-  <main>
-    <h2>Hoşgeldiniz!</h2>
-    <p>KayTech'e hoşgeldiniz. Burada teknoloji, yazılım ve yaratıcı çözümler üzerine yazılar bulacaksınız.</p>
-  </main>
+  <!-- Hakkımda Kısa Tanıtım -->
+  <section class="about-preview">
+    <h2>Kayra Kimdir?</h2>
+    <p>Ben Kayra. Teknoloji, yazılım ve yaratıcı çözümlerle uğraşmayı seviyorum. KayTech benim kişisel blogum.</p>
+    <a href="about.html">Daha Fazla</a>
+  </section>
 
+  <!-- İletişim -->
   <footer>
-    <p>© 2026 KayTech</p>
+    <p>© 2026 KayTech | <a href="#">Twitter</a> | <a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
   </footer>
 </body>
 </html>
